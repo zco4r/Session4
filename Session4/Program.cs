@@ -14,6 +14,7 @@ class Program
         string userName = Console.ReadLine();
         PrintWelcome(userName);
         
+        
         //Task 2 - Square Number Function
         int Square(int number)
         {
@@ -24,6 +25,8 @@ class Program
         int num = int.Parse(Console.ReadLine());
         int result = Square(num);
         Console.WriteLine($"The square is: {result}");
+        
+        
         //Task 3 - Celsius to Fahrenheit Function
         double CelsiusToFahrenheit(double celsius)
         {
@@ -34,5 +37,15 @@ class Program
         double c = double.Parse(Console.ReadLine());
         double f = CelsiusToFahrenheit(c);
         Console.WriteLine($"Temperature in Fahrenheit: {f}");
+        
+        //Task 4 - Fixed Menu Display Function
+        void DisplayMenu()
+        {
+            Console.WriteLine("1) Start");
+            Console.WriteLine("2) Help");
+            Console.WriteLine("3) Exit");
+        }
+
+        DisplayMenu();
     }
 }    
