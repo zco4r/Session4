@@ -1,0 +1,14 @@
+/Users/ammaralazki/RiderProjects/Session4/Session4/bin/Debug/net10.0/Session4
+/Users/ammaralazki/RiderProjects/Session4/Session4/bin/Debug/net10.0/Session4.deps.json
+/Users/ammaralazki/RiderProjects/Session4/Session4/bin/Debug/net10.0/Session4.runtimeconfig.json
+/Users/ammaralazki/RiderProjects/Session4/Session4/bin/Debug/net10.0/Session4.dll
+/Users/ammaralazki/RiderProjects/Session4/Session4/bin/Debug/net10.0/Session4.pdb
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.AssemblyInfoInputs.cache
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.AssemblyInfo.cs
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.csproj.CoreCompileInputs.cache
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.dll
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/refint/Session4.dll
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.pdb
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.genruntimeconfig.cache
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/ref/Session4.dll
