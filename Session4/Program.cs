@@ -4,19 +4,15 @@ class Program
 {
     static void Main(string[] args)
     {
-        // Ask the user for their name
-        Console.Write("Please enter your name: ");
-        string userName = Console.ReadLine();
-
-        // Call the function
-        PrintWelcome(userName);
-
-
-        // Function definition
-        static void PrintWelcome(string name)
+        //Task 1 - Personalized Welcome Function
+        void PrintWelcome(string name)
         {
-            Console.WriteLine($"Hello {name}, welcome! It is great to have you here.");
+            Console.WriteLine($"Hello {name}, welcome to the program!");
         }
+
+        Console.Write("Enter your name: ");
+        string userName = Console.ReadLine();
+        PrintWelcome(userName);
         
         
     }

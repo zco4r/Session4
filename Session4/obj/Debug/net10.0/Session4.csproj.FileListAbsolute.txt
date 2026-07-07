@@ -12,3 +12,4 @@
 /Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.pdb
 /Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.genruntimeconfig.cache
 /Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/ref/Session4.dll
+/Users/ammaralazki/RiderProjects/Session4/Session4/obj/Debug/net10.0/Session4.sourcelink.json
