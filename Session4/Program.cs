@@ -24,5 +24,15 @@ class Program
         int num = int.Parse(Console.ReadLine());
         int result = Square(num);
         Console.WriteLine($"The square is: {result}");
+        //Task 3 - Celsius to Fahrenheit Function
+        double CelsiusToFahrenheit(double celsius)
+        {
+            return (celsius * 9 / 5) + 32;
+        }
+
+        Console.Write("Enter temperature in Celsius: ");
+        double c = double.Parse(Console.ReadLine());
+        double f = CelsiusToFahrenheit(c);
+        Console.WriteLine($"Temperature in Fahrenheit: {f}");
     }
 }    
