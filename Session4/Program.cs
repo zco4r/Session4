@@ -114,5 +114,15 @@ class Program
         Console.Write("Enter starting number: ");
         int startNum = int.Parse(Console.ReadLine());
         Countdown(startNum);
+        
+        //Task 9: Overloaded Multiply Function
+        
+        int multiply(int a, int b) => a * b;
+        double Multiply(double a, double b) => a * b;
+        int MULtiply(int a, int b, int c) => a * b * c;
+
+        Console.WriteLine($"Two Ints: {multiply(5, 10)}");
+        Console.WriteLine($"Two Doubles: {Multiply(2.5, 4.0)}");
+        Console.WriteLine($"Three Ints: {MULtiply(2, 3, 4)}");
     }
 }    
