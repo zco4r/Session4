@@ -100,5 +100,19 @@ class Program
         int score = int.Parse(Console.ReadLine());
         string grade = GetGradeLetter(score);
         Console.WriteLine($"Your grade is: {grade}");
+        
+        //Task 8: Countdown Function
+        
+        void Countdown(int start)
+        {
+            for (int i = start; i >= 1; i--)
+            {
+                Console.WriteLine(i);
+            }
+        }
+
+        Console.Write("Enter starting number: ");
+        int startNum = int.Parse(Console.ReadLine());
+        Countdown(startNum);
     }
 }    
