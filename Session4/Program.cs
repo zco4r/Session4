@@ -178,5 +178,37 @@ class Program
                 case "4": DisplayResult("Division", DivideNumbers(n1, n2)); break;
             }
         }
+        
+        //Task 12: Student Report Card Generator
+        double CalculateAverage(double s1, double s2, double s3) => (s1 + s2 + s3) / 3;
+
+        string getGradeLetter(double avg)
+        {
+            if (avg >= 90) return "A";
+            if (avg >= 80) return "B";
+            if (avg >= 70) return "C";
+            if (avg >= 60) return "D";
+            return "F";
+        }
+
+        void PrintReportCard(string name, double avg, string grade)
+        {
+            Console.WriteLine("\n--- Student Report Card ---");
+            Console.WriteLine($"Name:    {name}");
+            Console.WriteLine($"Average: {avg:F2}");
+            Console.WriteLine($"Grade:   {grade}");
+            Console.WriteLine("---------------------------");
+        }
+
+        Console.Write("Enter name: ");
+        string name = Console.ReadLine();
+        Console.Write("Enter three scores: ");
+        double score1 = double.Parse(Console.ReadLine());
+        double score2 = double.Parse(Console.ReadLine());
+        double score3 = double.Parse(Console.ReadLine());
+
+        double average = CalculateAverage(score1, score2, score3);
+        string letter = getGradeLetter(average);
+        PrintReportCard(name, average, letter);
     }
 }    
