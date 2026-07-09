@@ -47,8 +47,24 @@ class Program
         }
 
         DisplayMenu();
-
         
+        //Task 5: Even or Odd Function
+
+        bool IsEven(int number)
+        {
+            return number % 2 == 0;
+        }
+
+        Console.Write("Enter an integer: ");
+        int input = int.Parse(Console.ReadLine());
+        if (IsEven(input))
+        {
+            Console.WriteLine("Even");
+        }
+        else
+        {
+            Console.WriteLine("Odd");
+        }
         
     }
 }    
