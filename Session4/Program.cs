@@ -146,5 +146,37 @@ class Program
             double b = double.Parse(Console.ReadLine());
             Console.WriteLine($"Area: {CalculateArea(a, b)}");
         }
+        
+        //Task 11: Function-Based Calculator
+        double Add(double a, double b) => a + b;
+        double Subtract(double a, double b) => a - b;
+        double MultiplyNumbers(double a, double b) => a * b;
+        double DivideNumbers(double a, double b) 
+        {
+            try { return a / b; }
+            catch (DivideByZeroException) { return 0; }
+        }
+
+        void DisplayResult(string op, double result) => Console.WriteLine($"Operation: {op} | Result: {result}");
+
+        bool running = true;
+        while (running)
+        {
+            Console.WriteLine("\n1) Add 2) Subtract 3) Multiply 4) Divide 5) Exit");
+            string Choice = Console.ReadLine();
+            if (Choice == "5") { running = false; continue; }
+
+            Console.Write("Enter two numbers: ");
+            double n1 = double.Parse(Console.ReadLine());
+            double n2 = double.Parse(Console.ReadLine());
+
+            switch (Choice)
+            {
+                case "1": DisplayResult("Addition", Add(n1, n2)); break;
+                case "2": DisplayResult("Subtraction", Subtract(n1, n2)); break;
+                case "3": DisplayResult("Multiplication", MultiplyNumbers(n1, n2)); break;
+                case "4": DisplayResult("Division", DivideNumbers(n1, n2)); break;
+            }
+        }
     }
 }    
