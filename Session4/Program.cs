@@ -124,5 +124,27 @@ class Program
         Console.WriteLine($"Two Ints: {multiply(5, 10)}");
         Console.WriteLine($"Two Doubles: {Multiply(2.5, 4.0)}");
         Console.WriteLine($"Three Ints: {MULtiply(2, 3, 4)}");
+        
+        //Task 10: Overloaded Area Calculator
+        
+        double CALculateArea(double side) => side * side;
+        double CAlculateArea(double length, double width) => length * width;
+
+        Console.WriteLine("Calculate Area: 1) Square 2) Rectangle");
+        string choice = Console.ReadLine();
+
+        if (choice == "1")
+        {
+            Console.Write("Enter side: ");
+            double s = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Area: {CALculateArea(s)}");
+        }
+        else
+        {
+            Console.Write("Enter length and width: ");
+            double a = double.Parse(Console.ReadLine());
+            double b = double.Parse(Console.ReadLine());
+            Console.WriteLine($"Area: {CalculateArea(a, b)}");
+        }
     }
 }    
