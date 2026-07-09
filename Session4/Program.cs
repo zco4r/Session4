@@ -47,5 +47,16 @@ class Program
         }
 
         DisplayMenu();
+
+        //Task 3: Celsius to Fahrenheit Function
+        double celsiusToFahrenheit(double celsius)
+        {
+            return (celsius * 9 / 5) + 32;
+        }
+
+        Console.Write("Enter temperature in Celsius: ");
+        double a = double.Parse(Console.ReadLine());
+        double b = CelsiusToFahrenheit(a);
+        Console.WriteLine($"Temperature in Fahrenheit: {b}");
     }
 }    
